@@ -1,0 +1,151 @@
+body
+{
+	background-image: url("ind.jpg");
+}
+
+
+.me
+{
+	background-color: rgba(255,255,255,0.65);
+	width: 58%;
+	box-shadow: 10px 10px;
+	font-family: myFirstFont;
+	color: #73605b;
+	border-radius: 25px;
+	position: absolute;
+	left: 38%;
+	
+
+	
+}
+table
+{
+	width: 100%;
+	background-color: #73605b;
+	color: white;
+
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left: 40%;
+}
+
+
+@keyframes example1 {
+    from {}
+    to {transform: rotateY(360deg);}
+}
+
+
+@media only screen and (max-width: 1200px) {
+ 
+table
+{
+	font-weight: bold;
+	font-size: 200%;
+	width: 100%;
+	max-width: 100%;
+}
+.me
+  {
+  	width: 80%;
+  	position: absolute;top: 20%;
+	left: 10%;
+	
+  }  
+
+.not
+{
+	width: 80%;
+	position: absolute;
+	left: 10%;
+	top: 60%;
+}
+}
+
+
+
+
+
+h2
+{
+	text-align: center;
+	color: #73605b;
+	font-weight: bold;
+	font-size: 200%;
+	font-style: oblique;
+	font-family: fantasy;
+	animation-name: example1;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+   
+
+
+}
+.neww
+{
+	background-color: rgba(255,255,255,0.65);
+	width: 30%;
+	box-shadow: 10px 10px;
+	font-family: myFirstFont;
+	color: #73605b;
+	border-radius: 25px;
+	position: absolute;top: 1%;
+	left: 2%;
+	height: 96%;
+}
+
+input[type=text] {
+    background-color: #73605b;
+    color: white;
+    width: 98%;
+    border-radius: 25px;
+    height: 45px;
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  font-size: 140%;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  font-size: 140%;
+}
+:-ms-input-placeholder { /* IE 10+ */
+   color: white;
+  font-size: 140%;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+  font-size: 140%;
+}
+.del
+{
+	background-color: rgba(255,255,255,0.65);
+	width: 35%;
+	box-shadow: 10px 10px;
+	font-family: myFirstFont;
+	color: #73605b;
+	border-radius: 25px;
+}
+.not
+{
+	background-color: rgba(255,255,255,0.65);
+	width: 58%;
+	box-shadow: 10px 10px;
+	font-family: myFirstFont;
+	color: #73605b;
+	border-radius: 25px;
+	position: absolute;
+	top: 50%;
+	left: 38%;
+	min-height: 48%;
+}

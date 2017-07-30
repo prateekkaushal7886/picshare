@@ -1,0 +1,17 @@
+body
+{
+	background-image: url("ind.jpg");
+}
+
+
+.me
+{
+	background-color: rgba(255,255,255,0.65);
+	width: 35%;
+	box-shadow: 10px 10px;
+	font-family: myFirstFont;
+	color: #73605b;
+	border-radius: 25px;
+	position: absolute;top: 200px;
+	left: 6%;
+}

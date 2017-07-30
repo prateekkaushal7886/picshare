@@ -1,0 +1,6 @@
+p
+{
+	background-color: red;
+	justify-content: center;    /* center items vertically, in this case */
+    align-items: center; 
+}
